@@ -5,7 +5,7 @@ import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.Post
 import javax.inject.Inject
 
-@Controller("/book")
+@Controller("/books")
 class BookController {
 
     @Inject
